@@ -8,14 +8,22 @@
         input:focus{
             background-color: blue;
         }
+        :target{
+            border: 2px solid green;
+            background-color: yellow;    
+        }
     </style>
 </head>
 <body>
 
    <form action="#">
         Phone: <input type="tel"> <br>
-        e-mail: <input type="email" disabled> 
+        e-mail: <input type="email" disabled>
    </form>
+   <a href="#new1">Content 1</a><br>
+   <a href="#new2">Content 2</a>
 
+   <p id="new1">Content 1</p>
+   <p id="new2">Content 2</p>
 </body>
 </html>
